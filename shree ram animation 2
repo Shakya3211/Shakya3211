@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+</head>
+<style type="text/css">
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://res.cloudinary.com/freecodez/image/upload/v1697012673/images/yybjlatsiru7b5pzyu58.webp);
+  background-color: #eaeaea;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img2,
+.img3,
+.img4 {
+  position: absolute;
+  top: 0;
+}
+.img4 {
+  width: 100%;
+  position: absolute;
+  left: 20%;
+  top: 18%
+}
+.img1 {
+  animation: animate 8s linear infinite;
+  filter: drop-shadow(0 0 10px rgb(255, 81, 153));
+}
+.img2 {
+  padding: 5%;
+  filter: drop-shadow(0 0 5px rgb(255, 64, 172));
+  animation: animate2 10s linear infinite;
+}
+.img3 {
+  padding: 10%;
+  filter: drop-shadow(0 0 5px rgb(200, 117, 117));
+  animation: animate 15s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.arrows {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url(https://res.cloudinary.com/freecodez/image/upload/v1697119499/images/d0koo3si9qk2vw1wirsk.webp);
+  background-size: 200px auto;
+  animation: arrows 10s linear infinite;
+}
+@keyframes arrows {
+  0% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+  
+</style>
+<body>
+<div class="arrows"></div>
+<div class="container">
+    <div class="wrapper">
+        <div class="img1">
+      <img src="https://res.cloudinary.com/freecodez/image/upload/v1694949729/images/s7sweladttaja5ueyexx.webp"
+            alt="img1"
+          />
+        </div>
+        <div class="img2">
+            <img
+src="https://res.cloudinary.com/freecodez/image/upload/v1694949729/images/s7sweladttaja5ueyexx.webp"
+            alt="img2"
+          />
+        </div>
+        <div class="img3">
+            <img
+src="https://res.cloudinary.com/freecodez/image/upload/v1694949748/images/njofz6tzqdj5qsbb7kek.webp"
+            alt="img3"
+          />
+        </div>
+        <div class="img4">
+            <img src="ram.png"
+            alt="img4"
+          />
+        </div>
+    </div>
+</div>
+</body>
+</html>
