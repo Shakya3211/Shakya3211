@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jay shree ram animation</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.ram{
+    color: rgb(249, 93,0);
+    font-size: 60px;
+}
+.main{
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    position: relative;
+}
+.m{
+    position: absolute;
+    left: -25px;
+    font-size: larger;
+    color: orange;
+    animation: meet 18s ease-in-out;
+}
+.a{
+    position: absolute;
+    font-size: larger;
+    left: -25px;
+    color: red;
+    animation: meet 22s ease-in-out;
+}
+.r{
+    position: absolute;
+    font-size: larger;
+    color: rgb(168, 68, 18);
+    animation: meet 26s ease-in-out;
+}
+@keyframes meet{
+    from{
+        left: -25px;
+    }
+    to{
+        left: 99%;
+        font-size: 610%;
+        font-style: italic;
+    }
+}
+</style>
+<body>
+<!-- Start your code here -->
+
+<div class="ram"><center>Jay Shree Ram</center></div>
+<div class="main">
+    <div class="m"><h1>M</h1></div>
+    <div class="a"><h1>A</h1></div>
+    <div class="r"><h1>R</h1></div>
+</div>
+
+<!-- End your code here -->
+</body>
+</html>
